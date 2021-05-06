@@ -1,9 +1,42 @@
-textarea{
-    width: 80%;
-    height: 10vh;
+/* @import url('https://fonts.googleapis.com/css2?family=Monsterrat:ital,wght@0,400;1,600&display=swap'); */
+
+:root{
+    --primary-color: #090d91;
+    --dark-gray: #6B7280;
+    --off-white: #f3f4f6;
+}
+
+body{
+    background-color: var(--off-white);
+    font-family: 'Monsterrat', sans-serif;
+    padding: 0px;
+    margin: 0px;  
+}
+
+.header{
+    text-align: center;
     padding: 1rem;
-    margin: 1rem;
+    margin: auto;
+    background-color: yellow;
+}
+
+.input-textarea{
+    padding: 3rem 5rem;
+    margin:0% 20%;
+    align-items: center;
+}
+textarea{
+    width: 100%;
+    height: 10rem;
     display: block;
+    resize: none;
+    box-sizing: border-box;
+}
+.btn-output{
+    padding: 1rem 5rem;
+    width: 69%;
+    margin: 0% 20%;
+    align-items: center;
 }
 #btn-translate{
     margin: 1rem;
@@ -11,4 +44,16 @@ textarea{
     background-color: yellow;
     color:black;
     border-radius: 10px;
+    outline: none;
+}
+.output{
+    border: 1px solid black;
+    height: 10rem;
+    width: 48rem;
+    box-sizing: border-box;
+}
+.footer{
+    background-color: yellow;
+    padding: 3rem;
+    text-align: center;
 }
